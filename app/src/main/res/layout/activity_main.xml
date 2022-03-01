@@ -69,15 +69,15 @@
                 app:hintTextColor="@color/white"
                 android:textColorHint="@color/white"
                 >
-
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/idEdtCity"
+                    android:importantForAccessibility="no"
+                    android:textColorHint="@color/white"
                     android:importantForAutofill="no"
                     android:background="@android:color/transparent"
                     />
-
                 </com.google.android.material.textfield.TextInputLayout>
 
             <ImageView
