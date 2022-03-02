@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        /*
         RelativeLayout homeRL;
         ProgressBar loadingPB;
         TextView cityNameTV, temperatureTV, conditionTV;
         RecyclerView weatherRV;
         TextInputEditText cityEdt;
         ImageView backIV, iconIV, searchIV;
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         homeRL = findViewById(R.id.idRLHome);
         loadingPB = findViewById(R.id.idPBLoading);
@@ -33,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
         backIV = findViewById(R.id.idIVBack);
         iconIV = findViewById(R.id.idTVIcon);
         searchIV = findViewById(R.id.idTVSearch);
+        */
     }
 }
