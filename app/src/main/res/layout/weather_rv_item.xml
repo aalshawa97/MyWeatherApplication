@@ -5,7 +5,56 @@
     android:layout_gravity="center"
     android:layout_margin="4dp"
     android:layout_height="wrap_content"
+    android:background="@color/transparent"
     app:cardElevation="6dp"
     app:cardCornerRadius="10dp">
 
+    <RelativeLayout
+        android:background="@drawable/card_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTVTime"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTVTime"
+            android:id="@+id/idTvVTemperature"
+            android:gravity="center"
+            android:text="@string/_20"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/idTvVTemperature"
+            android:id="@+id/idTVCondition"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:padding="4dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@+id/idTVCondition"
+            android:id="@+id/WindSpeed"
+            android:textColor="@color/white"
+            android:text="@string/_13"
+            android:padding="3dp"
+            android:layout_margin="4dp"
+            />
+    </RelativeLayout>
 </androidx.cardview.widget.CardView>

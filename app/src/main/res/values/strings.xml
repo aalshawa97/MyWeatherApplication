@@ -5,4 +5,7 @@
     <string name="searchCityName">search</string>
     <string name="condition">Condition</string>
     <string name="today_s_weather_forecast">Today\'s Weather Forecast</string>
+    <string name="time">time</string>
+    <string name="_20">20</string>
+    <string name="_13">13</string>
 </resources>
